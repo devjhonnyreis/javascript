@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa</title>
+    <style>
+        body{
+            background-color: rgb(250, 82, 82);
+            color: azure;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> com JavaScript</p>
+    <div>Clique em Mim</div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = document.getElementsByTagName('p')[1]
+
+        document.write(p1.innerHTML)
+        corpo.style.backgroundColor = 'gray'
+        p1.style.color = 'black'
+
+    </script>
+    
+</body>
+</html>
