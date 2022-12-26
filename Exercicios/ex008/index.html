@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    <p>
+         
+        <form action="">
+            <label for="inac">Nacionalidade:</label>
+            <select name="nac" id="inac">
+                <option value="Arg">Argentina</option>
+                <option value="Br">Brasil</option>
+                <option value="Eua">Estados Unidos</option>
+                <option value="Fr">França</option>
+                <option value="Ing">Inglaterra</option>
+                <option value="Jap">Japão</option>
+            </select>
+            <input type="button" value="Selecionar" onclick="calc()">
+        </form>
+
+        <Div id="ires"></Div>
+    </p>
+
+    <script>
+
+        function calc() {
+            var nac = document.getElementById('inac')
+            var res = document.getElementById('ires')
+            var txnac = (nac.value)
+            if (txnac == 'Br') {
+                res.innerHTML = `<p>Você é Brasileiro!</p>`
+            } else { 
+                if (txnac == 'Arg') {
+                    res.innerHTML = `<p>Você é Argentino!</p>`
+                } else {
+                    if (txnac == 'Eua') {
+                        res.innerHTML = `<p>Você é Americano!</p>`
+                    } else {
+                        if (txnac == 'Fr') {
+                            res.innerHTML = `<p>Você é Francês!</p>`
+                        } else {
+                            if (txnac == 'Ing') {
+                                res.innerHTML = `<p>Você é Inglês!</p>`
+                            } else{
+                                res.innerHTML = `<p>Você é Japonês!</p>`
+                            }
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
