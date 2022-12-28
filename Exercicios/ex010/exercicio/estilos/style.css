@@ -35,6 +35,16 @@ section {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.512);
 }
 
+section > div#foto {
+    background-image: url(../imagens/foto-manha.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.512);
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
