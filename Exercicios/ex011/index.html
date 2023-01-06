@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar!</h1>
+    </header>
+    <section>
+        <div id="form">
+            <form action="">
+                <p>
+                    <label for="istart">Inicio:</label>
+                    <input type="number" name="start" id="istart">
+                </p>
+                <p>
+                    <label for="ifim">Fim:</label>  
+                    <input type="number" name="fim" id="ifim">
+                </p>
+                <p>
+                    <label for="ipass">Passo:</label>
+                    <input type="number" name="pass" id="ipass">
+                </p>
+                <input type="button" value="Contar" onclick="cont()">
+
+            </form>
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Jhonny Reis</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
