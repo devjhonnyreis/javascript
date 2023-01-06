@@ -40,6 +40,21 @@ section > div#form {
     line-height: 30px;
 }
 
+#botao {
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: var(--color1);
+    color: var(--color4);
+    font-weight: bold;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+section > div#res {
+    padding: 10px;
+}
+
 footer {
     text-align: center;
     margin-top: 40px;
