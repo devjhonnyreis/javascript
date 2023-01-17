@@ -54,6 +54,7 @@ div#current{
     padding: .15em;
     font-size: 2em;
     font-weight: 700;
+    min-height: 1.5em;
 }
 
 
@@ -65,9 +66,12 @@ div#current{
 
 button {
     height: 50px;
-    margin: 0.8px;
+    margin: 1.7px;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.952);
+    border: none;
+    border-radius: 2px;
 }
 
 button#number{
